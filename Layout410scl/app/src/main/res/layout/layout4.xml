@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="请输入"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:id="@+id/editText"
+        android:hint="请输入文字"
+        android:textSize="30sp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:drawableStart="@mipmap/ic_launcher"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="36dp"
+        android:id="@+id/button7"
+        android:textSize="30sp" />
+
+    <Button
+        android:text="CANCEL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_toStartOf="@+id/button7"
+        android:layout_marginEnd="42dp"
+        android:id="@+id/button8"
+        android:textSize="30sp" />
+
+</RelativeLayout>

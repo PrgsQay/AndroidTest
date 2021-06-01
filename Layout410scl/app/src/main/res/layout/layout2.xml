@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="黑"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/textView4"
+        android:background="#000"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="0dp">
+
+        <TextView
+            android:text="红"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView5"
+            android:background="#f00"
+            android:layout_weight="1"
+            android:textSize="36sp"
+            android:textColor="@android:color/background_dark"
+            android:textAlignment="center"
+            android:gravity="center" />
+
+        <TextView
+            android:text="绿"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0f0"
+            android:id="@+id/textView3"
+            android:textSize="36sp"
+            android:textColor="@android:color/background_dark"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>
